@@ -1,7 +1,7 @@
 const {MongoClient} = require("mongodb");
 
 async function main() {
-    const uri = "mongodb://troels:dockernodejstest123@20.229.2.139:2700/nodejs_app_db?w=majority";
+    const uri = "";
 
     const client = new MongoClient(uri);
     try {
